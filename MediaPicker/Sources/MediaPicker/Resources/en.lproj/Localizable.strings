@@ -1,0 +1,17 @@
+/* 
+ Localizable.strings
+
+  Created by Skywinds on 5/29/20.
+*/
+
+"CHOOSE_OPTION"             = "Choose option";
+"TAKE_PHOTO"                = "Take photo";
+"CHOOSE_PHOTO"              = "Choose photo";
+"CHOOSE_VIDEO"              = "Choose video";
+"TAKE_VIDEO"                = "Take video";
+"FILE"                      = "File";
+"CANCEL"                    = "Cancel";
+
+"CHOOSE_PHOTO_MESSAGE"      = "App does not have access to your photos. To enable access, tap settings and turn on Photo Library Access.";
+"TAKE_PHOTO_MESSAGE"        = "App does not have access to your camera. To enable access, tap settings and turn on Camera.";
+"VIDEO_MESSAGE"             = "App does not have access to your video. To enable access, tap settings and turn on Video Library Access.";
