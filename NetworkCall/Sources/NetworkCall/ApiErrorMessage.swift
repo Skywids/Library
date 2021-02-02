@@ -13,7 +13,7 @@ public enum ApiErrorMessage: Error {
     case invalidData
     case other(String)
     
-    var lacalString: String {
+    var localString: String {
         switch self {
         case .invalidData:
             return "invalidData"

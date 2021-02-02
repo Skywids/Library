@@ -73,7 +73,7 @@ private class MockAPICall {
             case .success(model: let user):
                 print(user)
             case .error(error: let errMsg):
-                print(errMsg.lacalString)
+                print(errMsg.localString)
             }
             
         }
@@ -84,7 +84,7 @@ private class MockAPICall {
         api.apiRequest(endpoint: UserEndPoint.get(userId: 1)) { (result: ApiResult<User>) in
             switch result {
             case .error(let error):
-                print(error.lacalString)
+                print(error.localString)
             case .success(let users):
                 print(users)
             }
